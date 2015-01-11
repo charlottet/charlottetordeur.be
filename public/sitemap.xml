@@ -1,7 +1,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 	<url>
 		<loc>https://www.charlottetordeur.be/</loc>
-		<lastmod>2015-01-05T23:37:08+00:00</lastmod>
-		<changefreq>monthly</changefreq>
+		<lastmod>2015-01-11T16:37:08+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+	</url>
+	<url>
+		<loc>https://www.charlottetordeur.be/certificats/Charlotte_Tordeur-Fact-Secourisme.pdf</loc>
+		<lastmod>2015-01-11T16:39:18+00:00</lastmod>
+		<changefreq>never</changefreq>
+	</url>
+	<url>
+		<loc>https://www.charlottetordeur.be/certificats/Charlotte_Tordeur-BIY-Community.pdf</loc>
+		<lastmod>2015-01-11T16:47:12+00:00</lastmod>
+		<changefreq>never</changefreq>
+	</url>
+	<url>
+		<loc>https://www.charlottetordeur.be/certificats/Charlotte_Tordeur-OC-Community.pdf</loc>
+		<lastmod>2015-01-11T16:52:02+00:00</lastmod>
+		<changefreq>never</changefreq>
+	</url>
+	<url>
+		<loc>https://www.charlottetordeur.be/certificats/Charlotte_Tordeur-OC-HTML5.pdf</loc>
+		<lastmod>2015-01-11T16:57:24+00:00</lastmod>
+		<changefreq>never</changefreq>
 	</url>
 </urlset>
