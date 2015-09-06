@@ -4,6 +4,16 @@
 		<lastmod>2015-01-11T16:37:08+00:00</lastmod>
 		<changefreq>yearly</changefreq>
 	</url>
+  <url>
+    <loc>https://www.charlottetordeur.be/en</loc>
+    <lastmod>2015-01-11T16:37:08+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.charlottetordeur.be/fr</loc>
+    <lastmod>2015-01-11T16:37:08+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+  </url>
 	<url>
 		<loc>https://www.charlottetordeur.be/certificats/Charlotte-Tordeur-Fact-Secourisme.pdf</loc>
 		<lastmod>2015-01-11T16:39:18+00:00</lastmod>
@@ -27,11 +37,11 @@
 	<url>
 		<loc>https://www.charlottetordeur.be/memoire/Tordeur-Charlotte-De-lacces-aux-musees-pour-les-enfants-a-mobilite-reduite-web.pdf</loc>
 		<lastmod>2015-01-11T16:52:29+00:00</lastmod>
-		<changefreq>never</changefreq>	
+		<changefreq>never</changefreq>
 	</url>
 	<url>
 		<loc>https://www.charlottetordeur.be/cv/Charlotte-Tordeur-CV-web.pdf</loc>
 		<lastmod>2015-01-11T16:48:37+00:00</lastmod>
-		<changefreq>yearly</changefreq>	
+		<changefreq>yearly</changefreq>
 	</url>
 </urlset>
