@@ -38,6 +38,11 @@ router.get('/fr', redirectHttps, function (req, res) {
   res.render('index-fr');
 });
 
+// GET French home page
+router.get('/*', redirectHttps, function (req, res) {
+  res.redirect('/en');
+});
+
 // POST Contact form
 router.post('/contact', function (req, res) {
 
