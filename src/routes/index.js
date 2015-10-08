@@ -1,10 +1,10 @@
 'use strict';
 
 var express = require('express');
-var router  = express.Router();
+var router = express.Router();
 var mailgun = require('mailgun-js')({
-  apiKey : process.env.CHA_MAILGUN_API_KEY,
-  domain : process.env.CHA_MAILGUN_DOMAIN
+  apiKey: process.env.CHA_MAILGUN_API_KEY,
+  domain: process.env.CHA_MAILGUN_DOMAIN
 });
 
 //
@@ -45,13 +45,12 @@ router.get('/*', redirectHttps, function (req, res) {
 
 // POST Contact form
 router.post('/contact', function (req, res) {
-
-  //Sending Contact Email
+  // Sending Contact Email
   var data = {
-    from: req.body.inputName + ' <' + req.body.inputEmail + '>',
+    from: 'Charlotte Site internet <info@charlottetordeur.com>',
     to: 'charlottetordeur@gmail.com',
     subject: 'Formulaire de contact',
-    text: req.body.inputMessage + '\n\n'
+    text: 'message:\n\n' + req.body.inputMessage + '\n\n email: ' + req.body.inputEmail + '\n\n name:' + req.body.inputName
   };
 
   mailgun.messages().send(data, function (error) {
@@ -62,14 +61,13 @@ router.post('/contact', function (req, res) {
         html: 'Message bien envoyé'
       });
     } else {
-      console.log('Mesage from: ' + data.from + ' failde to be sent');
+      console.log('Mesage from: ' + data.from + ' failed to be sent');
       res.json({
         status: 'NOK',
         html: 'Il y a eu un problème'
       });
     }
   });
-
 });
 
 module.exports = router;
