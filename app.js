@@ -1,15 +1,15 @@
 'use strict';
 
-var express      = require('express');
-var path         = require('path');
-var favicon      = require('serve-favicon');
-var logger       = require('morgan');
+var express = require('express');
+var path = require('path');
+var favicon = require('serve-favicon');
+var logger = require('morgan');
 var cookieParser = require('cookie-parser');
-var bodyParser   = require('body-parser');
+var bodyParser = require('body-parser');
 
-var app          = express();
+var app = express();
 
-var routes       = require('./src/routes/index');
+var routes = require('./src/routes/index');
 
 // view engine setup
 app.set('views', path.join(__dirname, '/src/views'));
@@ -55,6 +55,5 @@ app.use(function (err, req, res, next) {
     error: {}
   });
 });
-
 
 module.exports = app;
