@@ -61,12 +61,13 @@ router.post('/contact', function (req, res) {
         html: 'Message bien envoyé'
       });
     } else {
-      console.log('Mesage from: ' + data.from + ' failde to be sent');
+      console.log('Mesage from: ' + data.from + ' failed to be sent');
       res.json({
         status: 'NOK',
         html: 'Il y a eu un problème'
       });
     }
+  });
 });
 
 module.exports = router;
