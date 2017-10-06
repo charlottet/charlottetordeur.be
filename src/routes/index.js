@@ -8,38 +8,26 @@ var mailgun = require('mailgun-js')({
 });
 
 //
-// HTTPS Redirect
-//
-
-function redirectHttps (req, res, next) {
-  if (req.headers['x-forwarded-proto'] === 'http') {
-    res.redirect('https://' + req.headers.host + req.path);
-  } else {
-    return next();
-  }
-}
-
-//
 // Root Route
 //
 
 // GET home page
-router.get('/', redirectHttps, function (req, res) {
+router.get('/', function (req, res) {
   res.redirect('/en');
 });
 
 // GET English home page
-router.get('/en', redirectHttps, function (req, res) {
+router.get('/en', function (req, res) {
   res.render('index-en');
 });
 
 // GET French home page
-router.get('/fr', redirectHttps, function (req, res) {
+router.get('/fr', function (req, res) {
   res.render('index-fr');
 });
 
 // GET French home page
-router.get('/*', redirectHttps, function (req, res) {
+router.get('/*', function (req, res) {
   res.redirect('/en');
 });
 
