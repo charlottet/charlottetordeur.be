@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./server.js"
+    "start": "CHA_MAILGUN_API_KEY=test CHA_MAILGUN_DOMAIN=test PORT=8080 node ./server.js"
   },
   "dependencies": {
     "body-parser": "~1.13.3",
