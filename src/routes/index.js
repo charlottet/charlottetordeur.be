@@ -13,7 +13,7 @@ var mailgun = require('mailgun-js')({
 
 // GET home page
 router.get('/', function (req, res) {
-  res.redirect('/en');
+  res.redirect('/fr');
 });
 
 // GET English home page
@@ -28,7 +28,7 @@ router.get('/fr', function (req, res) {
 
 // GET French home page
 router.get('/*', function (req, res) {
-  res.redirect('/en');
+  res.redirect('/fr');
 });
 
 // POST Contact form
