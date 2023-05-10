@@ -1,52 +1,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 	<url>
-		<loc>https://www.charlottetordeur.be/</loc>
-		<lastmod>2015-01-11T16:37:08+00:00</lastmod>
+		<loc>https://charlottetordeur.be/</loc>
+		<lastmod>2023-05-10T11:56:02+0000</lastmod>
 		<changefreq>yearly</changefreq>
 	</url>
-  <url>
-    <loc>https://www.charlottetordeur.be/en</loc>
-    <lastmod>2015-01-11T16:37:08+00:00</lastmod>
-    <changefreq>yearly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.charlottetordeur.be/fr</loc>
-    <lastmod>2015-01-11T16:37:08+00:00</lastmod>
-    <changefreq>yearly</changefreq>
-  </url>
 	<url>
-		<loc>https://www.charlottetordeur.be/certificats/Charlotte-Tordeur-Fact-Secourisme.pdf</loc>
+		<loc>https://charlottetordeur.be/certificats/Charlotte-Tordeur-Fact-Secourisme.pdf</loc>
 		<lastmod>2015-01-11T16:39:18+00:00</lastmod>
 		<changefreq>never</changefreq>
 	</url>
 	<url>
-		<loc>https://www.charlottetordeur.be/certificats/Charlotte-Tordeur-BIY-Community.pdf</loc>
+		<loc>https://charlottetordeur.be/certificats/Charlotte-Tordeur-BIY-Community.pdf</loc>
 		<lastmod>2015-01-11T16:47:12+00:00</lastmod>
 		<changefreq>never</changefreq>
 	</url>
 	<url>
-		<loc>https://www.charlottetordeur.be/certificats/Charlotte-Tordeur-OC-Community.pdf</loc>
+		<loc>https://charlottetordeur.be/certificats/Charlotte-Tordeur-OC-Community.pdf</loc>
 		<lastmod>2015-01-11T16:52:02+00:00</lastmod>
 		<changefreq>never</changefreq>
 	</url>
 	<url>
-		<loc>https://www.charlottetordeur.be/certificats/Charlotte-Tordeur-OC-HTML5.pdf</loc>
+		<loc>https://charlottetordeur.be/certificats/Charlotte-Tordeur-OC-HTML5.pdf</loc>
 		<lastmod>2015-01-11T16:57:24+00:00</lastmod>
 		<changefreq>never</changefreq>
 	</url>
 	<url>
-		<loc>https://www.charlottetordeur.be/memoire/Tordeur-Charlotte-De-lacces-aux-musees-pour-les-enfants-a-mobilite-reduite-web.pdf</loc>
+		<loc>https://charlottetordeur.be/memoire/Tordeur-Charlotte-De-lacces-aux-musees-pour-les-enfants-a-mobilite-reduite-web.pdf</loc>
 		<lastmod>2015-01-11T16:52:29+00:00</lastmod>
 		<changefreq>never</changefreq>
 	</url>
 	<url>
-		<loc>https://www.charlottetordeur.be/cv/Charlotte-Tordeur-CV-web-fr.pdf</loc>
-		<lastmod>2015-01-11T16:48:37+00:00</lastmod>
-		<changefreq>yearly</changefreq>
-	</url>
-	<url>
-		<loc>https://www.charlottetordeur.be/cv/Charlotte-Tordeur-CV-web-en.pdf</loc>
-		<lastmod>2015-01-11T16:48:37+00:00</lastmod>
+		<loc>https://charlottetordeur.be/cv/Charlotte-Tordeur-CV.pdf</loc>
+		<lastmod>2023-05-10T10:36:45+0000</lastmod>
 		<changefreq>yearly</changefreq>
 	</url>
 </urlset>
